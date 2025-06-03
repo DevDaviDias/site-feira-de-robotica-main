@@ -1,0 +1,93 @@
+:root{
+   --primeira-cor:rgb(53, 18, 101);
+   --segunda-cor: #E3F4FE;
+   --terceira-cor: #000000;
+   --quarta-cor:#ffff;
+   --cor-de-fundo : #29204D;
+   --cor-botao:#9256e6;
+   --cor-dos-cards:#FFFBF0;
+}
+
+
+body{
+    background-color: var(--primeira-cor);
+    font-family: "Ancizar Serif", serif;
+}
+
+.box{
+    
+    background-color: var(--terceira-cor);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    color: var(--quarta-cor);
+
+}
+
+.cor{
+    background-color: var(--segunda-cor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    
+    
+}
+.cards{
+    background-color: var(--cor-dos-cards);
+    height: 320px;
+    width: 320px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px  rgba(58, 58, 58, 0.774)
+
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.paragrafo-titulo{
+    color: var(--quarta-cor);
+    align-items: center;
+    justify-content: center;
+    color: #a999ea;
+}
+img{
+    height:160px ;
+    width: 180px;
+    border-radius: 5px;
+}
+button{
+    background-color:var(--cor-botao) ;
+    width:50% ;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: var(--quarta-cor);
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    color: var(--cor-botao);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
