@@ -78,6 +78,11 @@ button{
     border-radius: 10px;
     border: none;
     color: var(--quarta-cor);
+    cursor: pointer;
+}
+button{
+    background-color:var(--cor-botao) ;
+   
 }
 h2{
     margin: 0;
@@ -90,4 +95,10 @@ footer{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #FFFBF0;
+    cursor: pointer;
 }
