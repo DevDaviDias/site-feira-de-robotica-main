@@ -71,7 +71,7 @@ img{
     width: 180px;
     border-radius: 5px;
 }
-button{
+.button{
     background-color:var(--cor-botao) ;
     width:50% ;
     height: 40px;
@@ -79,9 +79,10 @@ button{
     border: none;
     color: var(--quarta-cor);
     cursor: pointer;
+    padding: 10px;
 }
-button{
-    background-color:var(--cor-botao) ;
+.button:hover{
+    background-color:var(--cor-de-fundo) ;
    
 }
 h2{
