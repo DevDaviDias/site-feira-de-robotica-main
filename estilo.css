@@ -71,6 +71,11 @@ img{
     width: 180px;
     border-radius: 5px;
 }
+.img2{
+  height:160px ;
+  width: 150px;
+  border-radius: 5px;
+}
 .button{
     background-color:var(--cor-botao) ;
     width:50% ;
@@ -103,3 +108,38 @@ footer{
     color: #FFFBF0;
     cursor: pointer;
 }
+
+/* ===== Responsividade Desktop ===== */
+@media screen and (min-width: 768px) {
+    .projetos {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .cards {
+      width: 350px;
+      height: 390px;
+    }
+  
+    img {
+      width: 200px;
+      height: 180px;
+    }
+  
+    .button {
+      width: 70%;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .cards {
+      width: 400px;
+      height: 420px;
+    }
+  
+    img {
+      width: 240px;
+      height: 200px;
+    }
+  }
