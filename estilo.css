@@ -88,6 +88,8 @@ img{
   width: 150px;
   border-radius: 5px;
 }
+
+
 .button{
     background-color:var(--cor-botao) ;
     width:50% ;
@@ -98,6 +100,18 @@ img{
     cursor: pointer;
     padding: 10px;
 }
+
+.button3{
+  background-color:var(--cor-botao) ;
+  width:50% ;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  color: var(--quarta-cor);
+  cursor: pointer;
+  padding: 10px;
+}
+
 .button:hover{
     background-color:var(--cor-de-fundo) ;
    
